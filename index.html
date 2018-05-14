@@ -21,7 +21,7 @@
         <p>I am an undergraduate student at <a href="https://www.iiit.ac.in/">IIIT, Hyderabad</a>, where I work at the <a href="http://cvit.iiit.ac.in">Centre for Visual Information Technology</a>. At CVIT, I have worked on optical flow, 3D reconstruction of non rigid objects, sketch based image retrieval and gaze following.
         </p>
         <p>
-          I've spent time at <a href="https://angel.co/gibbr">Gibbr</a> working on a chat bot, <a href="https://www.iiit.ac.in">Felicity Web Team (IIIT Hyderabad)</a> working on the portals for online contests for the college annual fest, <a href="http://www.igcar.gov.in">IGCAR, DAE, India</a> in the computer division.<br>
+          I've spent time at <a href="https://www.zaubacorp.com/company/GIBBR-TECHNOLOGIES-PRIVATE-LIMITED/U72300TG2015PTC100253">Gibbr</a> working on a chat bot, <a href="https://www.iiit.ac.in">Felicity Web Team (IIIT Hyderabad)</a> working on the portals for online contests for the college annual fest, <a href="http://www.igcar.gov.in">IGCAR, DAE, India</a> in the computer division.<br>
           Additionally I am a cinephile and an audiophile.
         </p>
         <p align=center>
@@ -44,15 +44,41 @@
         <td width="100%" valign="middle">
           <heading>Research</heading>
           <p>
-          I'm interested in computer vision, machine learning (deep learning in particular) and image processing. I have been working on 3D reconstruction of non rigid objects, gaze following and sketch based image retrieval.
+          I'm interested in computer vision, machine learning (deep learning in particular) and image processing. I have been working on 3D reconstruction of non rigid objects, gaze following, sketch based image retrieval and depth estimation using unsupervised methods.
           <!-- Papers I especially like are <span class="highlight">highlighted</span>. -->
-          <br>Some papers I am currently working on:
+          <br>Some papers I am currently working with:
           </p>
         </td>
       </tr>
       </table>
 
     <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr onmouseout="friendly_stop()" onmouseover="friendly_start()" >
+        <td width="25%">
+          <div class="one">
+          <div class="two" id = 'friendly_image'><img width="100%" src='./imgs/depth.png'></div>
+          <img width="100%" src='./imgs/depth.png'>
+          </div>
+          <script type="text/javascript">
+          function friendly_start() {
+          document.getElementById('friendly_image').style.opacity = "1";
+          }
+          function friendly_stop() {
+          document.getElementById('friendly_image').style.opacity = "0";
+          }
+          friendly_stop()
+          </script>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://arxiv.org/pdf/1704.07813.pdf">
+          <papertitle>Unsupervised Learning of Depth and Ego-Motion from Video</papertitle></a><br>
+            <a href="">Tinghui Zhou</a>, <a href="">Matthew Brown</a>, <a href="">Noah Snavely</a>, <a href="">David Lowe</a><br>
+          <em>CVPR</em>, 2017 <br>
+          <a href="https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/">project page</a>
+          <p></p>
+          <p>Unsupervised learning framework for monocular depth and camera motion estimation from unstructured video sequences</p>
+        </td>
+      </tr>
       <tr onmouseout="friendly_stop()" onmouseover="friendly_start()" >
         <td width="25%">
           <div class="one">
@@ -263,7 +289,7 @@
           <td>
             <br>
             <p align="right"><font size="2">
-              <a href="http://www.cs.berkeley.edu/~barron/">Source</a>
+              <a href="http://www.cs.berkeley.edu/~barron/">Source: Jon Barron</a>
               </font>
             </p>
           </td>
