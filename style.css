@@ -50,3 +50,6 @@ a {
     span.highlight {
         background-color: #ffffd0;
     }
+    ul {
+        list-style-type: none;
+    }
