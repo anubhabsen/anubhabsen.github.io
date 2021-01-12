@@ -1,324 +1,308 @@
-<!DOCTYPE HTML PUBLIC>
-<html>
-  <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125250604-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
-    gtag('config', 'UA-125250604-1');
-  </script>
-  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-  <link rel="icon" type="image/png" href="seal_icon.png">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Anubhab Sen</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
-    <tr>
-    <td>
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td width="67%" valign="middle">
-        <p align="center">
-          <name>Anubhab Sen</name>
-        </p>
-        <p>
-          I am a graduate student at the <a href="https://www.usc.edu">University of Southern California</a> pursuing Masters in Computer Science.
-        </p>
-        <p>
-          I finished my undergraduate studies from <a href="https://iiit.ac.in">IIIT Hyderabad</a>.
-          There I worked with <a href="https://www.iiitd.ac.in/pk">Prof. Ponnurangam Kumaraguru</a> to analyse and try to predict trends on Twitter regarding the Indian general election, 2019.<br>
-          I worked with <a href="https://www.iiit.ac.in/people/faculty/vinoo-alluri/">Prof. Vinoo Alluri</a> to investigate connection between the musicality and personality traits.<br>
-          I also worked with <a href="https://www.iiit.ac.in/people/faculty/asharma/">Prof. Avinash Sharma</a> at the <a href="http://cvit.iiit.ac.in">Centre for Visual Information Technology</a>.
-        </p>
-        <p>
-        	During the summer of 2018, I worked at the <a href="https://vision.soic.indiana.edu">Computer Vision Lab</a>, at <a href="https://indiana.edu">Indiana University Bloomington</a> under the guidance of <a href="https://www.cs.indiana.edu/~djcran/">Prof. David Crandall</a> on a system that can classify notes played and finger used by a piano player using the video and audio feeds. Now I am working on preserving privacy of non-subjects in photographs using GANs.
-        </p>
-        <p align=center>
-          <a href="mailto:anubhabsen@gmail.com">Email</a> &nbsp/&nbsp
-          <a target="_blank" href="./resources/anubhab_research.pdf">CV</a> &nbsp/&nbsp
-          <a target="_blank" href="https://github.com/anubhabsen">GitHub</a> &nbsp/&nbsp
-          <!-- <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmdjR1bDk1Z2Z1ZzQ/view?usp=sharing">Thesis</a> &nbsp/&nbsp -->
-          <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp/&nbsp -->
-          <a target="_blank" href="https://www.linkedin.com/in/anubhabsen"> LinkedIn </a><!--  &nbsp/&nbsp -->
-          <!-- <a target="_blank" href="https://anubhabsen.wordpress.com"> Blog </a> -->
-        </p>
-        </td>
-        <td width="33%">
-          <img width="100%" style="border-radius: 50%" src="./imgs/anubhab-min.png">
-        </td>
-      </tr>
-      </table>
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td width="100%" valign="middle">
-          <heading>Sections</heading>
-          <ul>
-          	<li><a href='#research-tag'>Research</a></li>
-          	<li><a href='#course-tag'>Course Projects</a></li>
-          	<li><a href='#teaching-tag'>Teaching</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr id='research-tag'>
-        <td width="100%" valign="middle">
-          <heading>Research</heading>
-          <p>
-          I'm interested in computer vision, machine learning (deep learning in particular) and image processing. I have been working on 3D reconstruction of non rigid objects, gaze following, sketch based image retrieval and depth estimation using unsupervised methods.
-          <!-- Papers I especially like are <span class="highlight">highlighted</span>. -->
-          <br>Some papers I am currently working with:
-          </p>
-        </td>
-      </tr>
-      </table>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125250604-1"></script>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
 
-    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr onmouseout="friendly_stop()" onmouseover="friendly_start()" >
-        <td width="25%">
-          <div class="one">
-          <div class="two" id = 'friendly_image'><img width="100%" src='./imgs/depth.png'></div>
-          <img width="100%" src='./imgs/depth.png'>
-          </div>
-          <script type="text/javascript">
-          function friendly_start() {
-          document.getElementById('friendly_image').style.opacity = "1";
-          }
-          function friendly_stop() {
-          document.getElementById('friendly_image').style.opacity = "0";
-          }
-          friendly_stop()
-          </script>
-        </td>
-        <td valign="top" width="75%">
-          <p><a href="https://arxiv.org/pdf/1704.07813.pdf">
-          <papertitle>Unsupervised Learning of Depth and Ego-Motion from Video</papertitle></a><br>
-            <a href="">Tinghui Zhou</a>, <a href="">Matthew Brown</a>, <a href="">Noah Snavely</a>, <a href="">David Lowe</a><br>
-          <em>CVPR</em>, 2017 <br>
-          <a href="https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/">project page</a>
-          <p></p>
-          <p>Unsupervised learning framework for monocular depth and camera motion estimation from unstructured video sequences</p>
-        </td>
-      </tr>
-      <tr onmouseout="friendly_stop()" onmouseover="friendly_start()" >
-        <td width="25%">
-          <div class="one">
-          <div class="two" id = 'friendly_image'><img width="100%" src='./imgs/r2n2.png'></div>
-          <img width="100%" src='./imgs/r2n2.png'>
-          </div>
-          <script type="text/javascript">
-          function friendly_start() {
-          document.getElementById('friendly_image').style.opacity = "1";
-          }
-          function friendly_stop() {
-          document.getElementById('friendly_image').style.opacity = "0";
-          }
-          friendly_stop()
-          </script>
-        </td>
-        <td valign="top" width="75%">
-          <p><a href="http://3d-r2n2.stanford.edu/main.pdf">
-          <papertitle>3D-R2N2: A Unified Approach for Single and Multi-view 3D Object Reconstruction</papertitle></a><br>
-            <a href="">Christopher B. Choy</a>, <a href="">Danfei Xu</a>, <a href="">JunYoung Gwak</a>, <a href="">Kevin Chen</a>, <a href="">Silvio Savarese</a><br>
-          <em>ECCV</em>, 2016 <br>
-          <a href="http://3d-r2n2.stanford.edu">project page</a>
-          <p></p>
-          <p>Generate voxelised reconstruction of object given one or multiple views</p>
-        </td>
-      </tr>
-      <tr onmouseout="friendly_stop()" onmouseover="friendly_start()" >
-        <td width="25%">
-          <div class="one">
-          <div class="two" id = 'friendly_image'><img width="100%" src='./imgs/3dgan.png'></div>
-          <img width="100%" src='./imgs/3dgan.png'>
-          </div>
-          <script type="text/javascript">
-          function friendly_start() {
-          document.getElementById('friendly_image').style.opacity = "1";
-          }
-          function friendly_stop() {
-          document.getElementById('friendly_image').style.opacity = "0";
-          }
-          friendly_stop()
-          </script>
-        </td>
-        <td valign="top" width="75%">
-          <p><a href="http://3dgan.csail.mit.edu/papers/3dgan_nips.pdf">
-          <papertitle>Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling</papertitle></a><br>
-            <a href="">Jiajun Wu</a>, <a href="">Chengkai Zhang</a>, <a href="">Tianfan Xue</a>, <a href="">William T. Freeman</a>, <a href="">Joshua B. Tenenbaum</a><br>
-          <em>NIPS</em>, 2016 <br>
-          <a href="http://3dgan.csail.mit.edu">project page</a>
-          <p></p>
-          <p>Generates 3D objects from a probabilistic space by leveraging recent advances in volumetric convolutional networks and generative adversarial nets.</p>
-        </td>
-      </tr>
-      <tr onmouseout="friendly_stop()" onmouseover="friendly_start()" >
-        <td width="25%">
-          <div class="one">
-          <div class="two" id = 'friendly_image'><img width="100%" src='./imgs/gazefollow.png'></div>
-          <img width="100%" src='./imgs/gazefollow.png'>
-          </div>
-          <script type="text/javascript">
-          function friendly_start() {
-          document.getElementById('friendly_image').style.opacity = "1";
-          }
-          function friendly_stop() {
-          document.getElementById('friendly_image').style.opacity = "0";
-          }
-          friendly_stop()
-          </script>
-        </td>
-        <td valign="top" width="75%">
-          <p><a href="http://people.csail.mit.edu/khosla/papers/nips2015_recasens.pdf">
-          <papertitle>Where are they looking?</papertitle></a><br>
-            <a href="">Adrià Recasens</a>, <a href=""> Aditya Khosla</a>, <a href=""> Carl Vondrick</a>, <a href="">Antonio Torralba</a><br>
-          <em>NIPS</em>, 2015 <br>
-          <a href="http://gazefollow.csail.mit.edu">project page</a>
-          <p></p>
-          <p>Given an image and the location of a head, the gaze of the person is followed and the object being looked at is identified.</p>
-        </td>
-      </tr>
-    </table>
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr id='course-tag'>
-        <td>
-        <heading>Course Projects</heading>
-        </td>
-      </tr>
-      </table>
-      <table width="100%" align="center" border="0" cellpadding="20">
-      <tr>
-        <td width="25%"><img src="./imgs/sbir.png" alt="sbir" width="160" height="160"></td>
-        <td width="75%" valign="top">
-        <p>
-          <a href="https://github.com/rohitgajawada/SBIR-PerceptualGrouping">
-          <papertitle>Sketch based image retrieval</papertitle>
-          </a>
-          <br>
-          <strong>Anubhab Sen</strong>, <a href=""> Rohit Gajawada</a>, <a href="">Aditya Bharti</a>, 2017
-        <p><br>
-          Given a sketch, search a database from images which are similar to the sketch and display them.
-        </p>
-        </p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%"><img src="./imgs/ttt.png" alt="ultimate-tic-tac-toe" width="160" height="160"></td>
-        <td width="75%" valign="top">
-        <p>
-          <a href="https://github.com/anubhabsen/ultimate-tic-tac-toe">
-          <papertitle>Ultimate tic tac toe bot (4x4x4x4)</papertitle>
-          </a>
-          <br>
-          <strong>Anubhab Sen</strong>, <a href="">Rohit Gajawada</a>, 2017
-        <p><br>
-          An AI bot to play a variation of ultimate tic tac toe (4x4x4x4) using minimax and alphabeta pruning along with iterative deepening and a heuristic to handle time limits.
-        </p>
-        </p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%"><img src="./imgs/aqua.png" alt="aquarium" width="160" height="160"></td>
-        <td width="75%" valign="top">
-        <p>
-          <a href="https://github.com/anubhabsen/webgl-aquarium">
-          <papertitle>WebGL Aquarium</papertitle>
-          </a>
-          <br>
-          <strong>Anubhab Sen</strong>, <a href="">Megh Parikh</a>, <a href="">Sourabh Rajguru</a>, <a href="">Arun Garimella</a>, 2016
-        <p><br>
-          An aquarium made using completely using WebGL and free resources like models and textures.
-        </p>
-        </p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%"><img src="./imgs/term.png" alt="cshell" width="160" height="160"></td>
-        <td width="75%" valign="top">
-        <p>
-          <a href="https://github.com/anubhabsen/cshell">
-          <papertitle>C-Shell</papertitle>
-          </a>
-          <br>
-          <strong>Anubhab Sen</strong>, 2017
-        <p><br>
-           A bash clone implemented in C. Some bash commands are implemented and the rest are invoked using execvp. A few additional commands such as pinfo, jobs, kjob and kill have been implemented to enhance productivity.
-        </p>
-        </p>
-        </td>
-      </tr>
-      </table>
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr id='teaching-tag'>
-        <td>
-        <heading>Teaching</heading>
-        </td>
-      </tr>
-      </table>
-      <table width="100%" align="center" border="0" cellpadding="20">
-      <tr>
-        <td width="25%"><img src="./imgs/itws.png" alt="graphics" width="160"></td>
-        <td width="75%" valign="center">
-        <p>
-          <papertitle>Introduction to Software Systems (Spring 2019) - Teaching Assistant</papertitle>
-          <p>Course with over 200 undergraduates registered.</p>
-          <br><br>
-          <br>
-        </p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%"><img src="./imgs/machine_learning.jpg" alt="graphics" width="160"></td>
-        <td width="75%" valign="center">
-        <p>
-          <papertitle>Machine Learning (Monsoon 2018) - Teaching Assistant</papertitle>
-          <p>Course with over 250 students including Bachelors, Masters, PhD and professionals registered.</p>
-          <br><br>
-          <br>
-        </p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%"><img src="./imgs/graphics.jpg" alt="graphics" width="160"></td>
-        <td width="75%" valign="center">
-        <p>
-          <papertitle>Computer Graphics (Spring 2018) - Teaching Assistant</papertitle>
-          <p>Course with over 150 undergraduates registered.</p>
-          <br><br>
-          <br>
-        </p>
-        </td>
-      </tr>
-      <tr>
-        <td width="25%"><img src="./imgs/os.jpg" alt="os" width="160"></td>
-        <td width="75%" valign="center">
-        <p>
-          <papertitle>Operating Systems (Monsoon 2017) - Teaching Assistant</papertitle>
-          <p>Course with over 150 undergraduates registered.</p>
-          <br><br>
-          <br>
-        </p>
-        </td>
-      </tr>
-      </table>
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        <tr>
-          <td>
-            <br>
-            <p align="right"><font size="2">
-              <a href="http://www.cs.berkeley.edu/~barron/">Source: Jon Barron</a>
-              </font>
-            </p>
-          </td>
-        </tr>
-      </table>
-    </td>
-    </tr>
-  </table>
-  </body>
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Anubhab Sen</h1>
+            <h2>Software Engineer</h2>
+            <a target="_blank" href="./resources/anubhab_research.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am a graduate student at the <a href="https://www.usc.edu/">University of Southern California</a> pursuing Masters in Computer Science.
+                        <br><br>
+                        I worked at the <a href="https://www.arl.army.mil">U.S. Army Research Lab</a> for the summer of 2020, helping them build predictive models to tell the attention state of subjects.<br>
+                        During the summer of 2018, I worked at the <a href="https://vision.soic.indiana.edu">Computer Vision Lab</a>, at Indiana University Bloomington on a system that can classify notes played and finger used by a piano player using the video and audio feeds. Now I am working on preserving privacy of non-subjects in photographs using GANs.
+                        <br><br>
+                        I finished my undergraduate studies from <a href="https://iiit.ac.in/">IIIT Hyderabad</a>. There I worked at <a href="https://precog.iiitd.edu.in">Precog</a> to analyse and try to predict trends on Twitter regarding the Indian general election, 2019.<br>
+                        I have also worked at the <a href="https://cogsciiiith.bitbucket.io/#home">Cognitive Sciences lab</a> and the <a href="https://cvit.iiit.ac.in">Centre for Visual Information Technology</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="June 2020 – August 2020">
+                <h3>U.S. Army CCDC</h3>
+                <h4>Software Engineer Intern</h4>
+                <p>
+                    I worked at the Combat Capabilities Development Command of the U.S. Army Research Lab to design and implement an algorithm to determine if a subject is currently looking at predefined target from the changes to their pupil size. I helped prepare the dataset for this task and designed the algorithm. My algorithm uses deep neural networks to classify from a 5 second window of pupil sizes whether the subject is looking at a target or not with a 94% accuracy on a test set.
+                </p>
+            </div>
+
+            <div data-date="May 2018 – July 2018">
+                <h3>Indiana University Bloomington</h3>
+                <h4>Software Engineer Intern</h4>
+                <p>
+                    I worked at the Computer Vision Lab of Indiana University Bloomington to develop a Piano tutor that records the subject playing the piano and responds to incorrect notes played and fingering used for predetermined pieces. Developed a neural network architecture that determines note played and finger used from an audio and visual stream of the subject's hands on the piano. Uses hand landmarks detected from OpenPose.
+                </p>
+            </div>
+
+            <div data-date="August 2019 – December 2019">
+                <h3>Precog Research Group</h3>
+                <h4>Software Developer</h4>
+                <p>
+                    Worked at the Precog Research Group to analyze user behaviors on Twitter with respect to Indian General Election 2019. Developed dataset with over 40 million Tweets from politically affiliated Twitter accounts including all elected representatives and national and regional parties. Public portal developed to visualize data gathered and answered questions posed by journalists such as tracking growth of specific hashtags, accounts that are active only during the election cycle, accounts that were deleted.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Southern California</h3>
+            <span class="education-date">Aug 2019 - Present</span>
+            <h4>Master of Science in Computer Science</h4>
+            <!-- <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+            </p> -->
+            <ul>
+                <li>
+                    <b>GPA:</b> 3.9
+                </li>
+                <li>
+                    <b>Courses:</b> Analysis of Algorithms, Artificial Intelligence, Machine Learning for Games, Natural Language Processing
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>IIIT Hyderabad, India</h3>
+            <span class="education-date">Aug 2015 - May 2019</span>
+            <h4>Bachelor of Technology in Computer Science</h4>
+            <ul>
+                <li>
+                    <b>Cumulative GPA:</b> 8.81/10
+                </li>
+                <li>
+                    Institute's <b>Dean's List Recipient</b> 2016, 2017 and 2018
+                </li>
+                <li>
+                    <b>Courses:</b> Data Structures, Algorithms, Databases, Operating Systems, Software Engineering, Distributed Systems, Principles of Programming Languages<br>
+                    Computer Programming, IT Workshop, System Analysis and Design, Theory of Computation, Graphics, Computer Networks<br>
+                    Digital Logic and Processors, Computer System Organization, Digital Signal Analysis<br>
+                    Artificial Intelligence, Machine Learning, Digital Image Processing, Computer Vision
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Open Source Developer</h3>
+                        <p>
+                            I enjoy contributing code to open source organizations and am a contributor to Mozilla products such as code-coverage, taskcluster, bugbug, libmozevent.
+                        </p>
+                        <a href="https://github.com/anubhabsen">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Ultimate Tic Tac Toe</h3>
+                        <p>
+                            I participated and was a semi-finalist in a competition to create a bot to play ultimate TicTacToe (4x4x4x4) with 30 seconds given per move. Used the minimax algorithm with alpha beta pruning to find the best move in the game tree. Best move determined with heuristic score from features of the board at max depth. Flexible maximum depth obtained by iterative deepening.
+                        </p>
+                        <a href="https://github.com/anubhabsen/ultimate-tic-tac-toe">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>C Shell</h3>
+                        <p>
+                            Wrote a Shell in C to run commands such as ls, pwd, cd, echo, cat. Supports piping and redirection. Allows for backgrounding and foregrounding processing. Some customs commands such as pinfo, jobs and kill included for ease of use. Execvp used to support all other regular BASH commands too. Signals such as Ctrl-D and Ctrl-C supported.
+                        </p>
+                        <a href="https://github.com/anubhabsen/cshell">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Flask</li>
+            <li>MATLAB</li>
+            <li>Shell Scripting</li>
+            <li>Git</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Computer Vision</li>
+            <li>Data Science</li>
+            <li>PyTorch</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form
+              action="https://formspree.io/xpzyrnpa"
+              method="POST"
+            >
+              <label>
+                Your email:
+                <input type="text" name="_replyto">
+              </label>
+              <label>
+                Your message:
+                <textarea name="message"></textarea>
+              </label>
+              <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 Anubhab Sen
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/anubhabsen" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/anubhabsen" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/sen.anubhab" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/senanubhab" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
 </html>
-
